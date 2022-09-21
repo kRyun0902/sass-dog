@@ -1,0 +1,102 @@
+// 여기는 원래 App.css 였지만 .scss로 바꿨다.
+// 여기는 와치 sass는 필요없다.
+
+#wrap {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #333;
+ 
+    > header {
+       position: relative;
+       height: 100px;
+       background-color: #069;
+
+       > nav {
+        position: absolute;
+        left: 300px;
+        bottom: 25px;
+
+        > ul {
+           display: flex;
+
+           > li {
+              width: 150px;
+
+              > a {
+                 display: block;
+                 height: 35px;
+                 color: #fff;
+                 font-size: 18px;
+                 line-height: 35px;
+                 text-align: center;
+
+                 &:hover {
+                    text-decoration: underline;
+                 }
+              }
+           } //end of li
+        } //end of ul
+     } //end of nav
+    } //end of header
+
+    > h1 {
+        position: absolute;
+        left: 50px;
+        top: 25px;
+        width: 200px;
+        font-size: 36px;
+
+        // border: 1px solid #000;
+        > a {
+           display: block;
+           height: 50px;
+           color: #fff;
+           line-height: 50px;
+           text-align: center;
+        }
+    } //end of h1
+
+    section {
+        width: 930px;
+        padding: 10px;
+        margin: 0 auto;
+        background-color: #fff;
+        h2 {
+           margin: 10px 0;
+           font-size: 25px;
+        }
+  
+        p {
+           line-height: 25px;
+           *zoom: 1;
+           &:after {
+              display: block;
+              clear: both;
+              content: '';
+           }
+  
+           > .frame {
+              display: block;
+              overflow: hidden;
+              float: right;
+              width: 300px;
+              margin: 5px 0 5px 5px;
+              border-radius: 5px;
+  
+              > img {
+                 display: block;
+                 width: 100%;
+              }
+           }
+        }
+     }
+
+     footer {
+        height: 80px;
+        > address {
+           line-height: 80px;
+           color: #fff;
+           text-align: center;
+        }
+     }
+}

@@ -1,0 +1,85 @@
+#wrap {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #333;
+}
+#wrap > header {
+  position: relative;
+  height: 100px;
+  background-color: #069;
+}
+#wrap > header > nav {
+  position: absolute;
+  left: 300px;
+  bottom: 25px;
+}
+#wrap > header > nav > ul {
+  display: flex;
+}
+#wrap > header > nav > ul > li {
+  width: 150px;
+}
+#wrap > header > nav > ul > li > a {
+  display: block;
+  height: 35px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+}
+#wrap > header > nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+#wrap > h1 {
+  position: absolute;
+  left: 50px;
+  top: 25px;
+  width: 200px;
+  font-size: 36px;
+}
+#wrap > h1 > a {
+  display: block;
+  height: 50px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+#wrap section {
+  width: 930px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+#wrap section h2 {
+  margin: 10px 0;
+  font-size: 25px;
+}
+#wrap section p {
+  line-height: 25px;
+  *zoom: 1;
+}
+#wrap section p:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#wrap section p > .frame {
+  display: block;
+  overflow: hidden;
+  float: right;
+  width: 300px;
+  margin: 5px 0 5px 5px;
+  border-radius: 5px;
+}
+#wrap section p > .frame > img {
+  display: block;
+  width: 100%;
+}
+#wrap footer {
+  height: 80px;
+}
+#wrap footer > address {
+  line-height: 80px;
+  color: #fff;
+  text-align: center;
+}/*# sourceMappingURL=App.css.map */
